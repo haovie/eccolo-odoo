@@ -11,8 +11,8 @@
     <!--  Video Background for Login Page  -->
     <template id="login_video_background" inherit_id="web.frontend_layout" name="Login Video Background">
         <xpath expr="//div[@id='wrapwrap']" position="before">
-            <video id="login-video-bg" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline">
-                <source src="/jazzy_backend_theme/static/src/img/video5.mp4" type="video/mp4"/>
+            <video id="login-video-bg" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline" preload="auto">
+                <source src="/jazzy_backend_theme/static/src/img/video6.mp4" type="video/mp4"/>
             </video>
         </xpath>
     </template>
