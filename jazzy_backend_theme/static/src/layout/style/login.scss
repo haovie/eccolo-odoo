@@ -1,5 +1,11 @@
 #wrapwrap > main {
-    background: #f8f8fb;
+    background: transparent !important;
+}
+#wrapwrap {
+    background: transparent !important;
+}
+.container.py-5 {
+    background: transparent !important;
 }
 .navbar {
     background: #fff !important;
