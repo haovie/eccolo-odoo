@@ -7,4 +7,13 @@
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&amp;display=swap" rel="stylesheet"/>
         </xpath>
     </template>
+
+    <!--  Video Background for Login Page  -->
+    <template id="login_video_background" inherit_id="web.frontend_layout" name="Login Video Background">
+        <xpath expr="//div[@id='wrapwrap']" position="before">
+            <video id="login-video-bg" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline">
+                <source src="/jazzy_backend_theme/static/src/img/video5.mp4" type="video/mp4"/>
+            </video>
+        </xpath>
+    </template>
 </odoo>
