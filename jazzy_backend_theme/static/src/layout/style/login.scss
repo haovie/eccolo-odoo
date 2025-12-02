@@ -15,7 +15,13 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 body.bg-100 {
-    background-color: #000000 !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    /* Hoặc sử dụng ảnh nền bằng cách comment dòng background gradient và uncomment dòng dưới:
+    background-image: url('/jazzy_backend_theme/static/src/img/login-bg.jpg') !important;
+    */
 }
 .card.o_database_list {
     align-items: center;
